@@ -11,47 +11,103 @@
       .logo { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
       .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+      @keyframes letter-rise {
+              0%, 100% { transform: translateY(0); opacity: 1; }
+              45% { transform: translateY(-5px); opacity: .94; }
+            }
+            @keyframes sweep {
+              0% { transform: translateX(0); opacity: 0; }
+              18% { opacity: .36; }
+              58% { opacity: .12; }
+              100% { transform: translateX(1380px); opacity: 0; }
+            }
+            @keyframes float-card {
+              0%, 100% { transform: translateY(0); }
+              50% { transform: translateY(-8px); }
+            }
+            @keyframes pulse-dot {
+              0%, 100% { r: 5; opacity: .86; }
+              50% { r: 8; opacity: 1; }
+            }
+            @keyframes dash-flow {
+              from { stroke-dashoffset: 520; }
+              to { stroke-dashoffset: 0; }
+            }
+            @keyframes chip-glow {
+              0%, 100% { opacity: 1; }
+              50% { opacity: .72; }
+            }
+            .letter { animation: letter-rise 5.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+            .letter-0 { animation-delay: 0s; }
+            .letter-1 { animation-delay: .14s; }
+            .letter-2 { animation-delay: .28s; }
+            .letter-3 { animation-delay: .42s; }
+            .letter-4 { animation-delay: .56s; }
+            .letter-5 { animation-delay: .7s; }
+            .letter-6 { animation-delay: .84s; }
+            .bar-sweep { animation: sweep 4.8s ease-in-out infinite; }
+            .float-card { animation: float-card 6s ease-in-out infinite; }
+            .flow-line { stroke-dasharray: 84 436; animation: dash-flow 5.2s linear infinite; }
+            .pulse-dot { animation: pulse-dot 2.6s ease-in-out infinite; }
+            .pulse-dot:nth-of-type(2) { animation-delay: .8s; }
+            .pulse-dot:nth-of-type(3) { animation-delay: 1.6s; }
+            .chip-live { animation: chip-glow 3.8s ease-in-out infinite; }
+            @media (prefers-reduced-motion: reduce) {
+              .letter, .bar-sweep, .float-card, .flow-line, .pulse-dot, .chip-live { animation: none; }
+            }
     </style>
   </defs>
   <rect width="1280" height="560" rx="0" fill="#FFFFFF"/>
   
       <rect x="38" y="38" width="1204" height="484" rx="8" fill="url(#paper)" stroke="#E8E8E8" filter="url(#shadow)"/>
-      <g clip-path="url(#clip-70-68)">
+      <g>
+    <g clip-path="url(#clip-70-68)">
     <clipPath id="clip-70-68"><rect x="70" y="68" width="1140" height="8" rx="4"/></clipPath>
     <rect x="70" y="68" width="163.85714285714286" height="8" fill="#CC2222"/><rect x="232.85714285714286" y="68" width="163.85714285714286" height="8" fill="#2A7A2A"/><rect x="395.7142857142857" y="68" width="163.85714285714286" height="8" fill="#D4A017"/><rect x="558.5714285714286" y="68" width="163.85714285714286" height="8" fill="#111111"/><rect x="721.4285714285714" y="68" width="163.85714285714286" height="8" fill="#CC2222"/><rect x="884.2857142857143" y="68" width="163.85714285714286" height="8" fill="#2A7A2A"/><rect x="1047.142857142857" y="68" width="163.85714285714286" height="8" fill="#DD9D13"/>
   </g>
+    <clipPath id="anim-clip-70-68"><rect x="70" y="68" width="1140" height="8" rx="4"/></clipPath>
+    <g clip-path="url(#anim-clip-70-68)">
+      <rect class="bar-sweep" x="-170" y="68" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.42"/>
+    </g>
+  </g>
       <text class="mono" x="78" y="128" font-size="12" fill="#999999">OFFICIAL GITHUB PROFILE</text>
-      <g><text class="logo" x="78" y="226" font-size="86" fill="#CC2222">S</text><text class="logo" x="125.30000000000001" y="226" font-size="86" fill="#2A7A2A">c</text><text class="logo" x="165.72" y="226" font-size="86" fill="#D4A017">h</text><text class="logo" x="215.6" y="226" font-size="86" fill="#111111">o</text><text class="logo" x="264.62" y="226" font-size="86" fill="#CC2222">l</text><text class="logo" x="289.56" y="226" font-size="86" fill="#2A7A2A">a</text><text class="logo" x="334.28" y="226" font-size="86" fill="#D4A017">y</text></g>
+      <g><text class="logo letter letter-0" x="78" y="226" font-size="86" fill="#CC2222">S</text><text class="logo letter letter-1" x="125.30000000000001" y="226" font-size="86" fill="#2A7A2A">c</text><text class="logo letter letter-2" x="165.72" y="226" font-size="86" fill="#D4A017">h</text><text class="logo letter letter-3" x="215.6" y="226" font-size="86" fill="#111111">o</text><text class="logo letter letter-4" x="264.62" y="226" font-size="86" fill="#CC2222">l</text><text class="logo letter letter-5" x="289.56" y="226" font-size="86" fill="#2A7A2A">a</text><text class="logo letter letter-6" x="334.28" y="226" font-size="86" fill="#D4A017">y</text></g>
       <text class="ui" x="82" y="282" font-size="24" font-weight="600" fill="#111111">AI academic workspace</text>
       <text class="ui" x="82" y="314" font-size="18" font-weight="600" fill="#111111">AI 学术工作台</text>
       <text class="ui" x="82" y="346" font-size="17" fill="#666666">Search, review, write, and organize research · 检索、审稿、写作与文献管理</text>
       <g transform="translate(82 388)">
-        <g>
+        <g class="chip-live"><g>
     <rect x="0" y="0" width="88" height="28" rx="14" fill="#FFFFFF" stroke="#E8E8E8"/>
     <circle cx="15" cy="14" r="4" fill="#CC2222"/>
     <text class="mono" x="27" y="18" font-size="11" fill="#666666">SEARCH</text>
-  </g>
-        <g>
+  </g></g>
+        <g class="chip-live" style="animation-delay:.6s"><g>
     <rect x="110" y="0" width="88" height="28" rx="14" fill="#FFFFFF" stroke="#E8E8E8"/>
     <circle cx="125" cy="14" r="4" fill="#2A7A2A"/>
     <text class="mono" x="137" y="18" font-size="11" fill="#666666">REVIEW</text>
-  </g>
-        <g>
+  </g></g>
+        <g class="chip-live" style="animation-delay:1.2s"><g>
     <rect x="220" y="0" width="79" height="28" rx="14" fill="#FFFFFF" stroke="#E8E8E8"/>
     <circle cx="235" cy="14" r="4" fill="#D4A017"/>
     <text class="mono" x="247" y="18" font-size="11" fill="#666666">PRISM</text>
-  </g>
-        <g>
+  </g></g>
+        <g class="chip-live" style="animation-delay:1.8s"><g>
     <rect x="322" y="0" width="97" height="28" rx="14" fill="#FFFFFF" stroke="#E8E8E8"/>
     <circle cx="337" cy="14" r="4" fill="#1A56DB"/>
     <text class="mono" x="349" y="18" font-size="11" fill="#666666">LIBRARY</text>
-  </g>
+  </g></g>
       </g>
-      <g transform="translate(720 116)">
+      <g class="float-card" transform="translate(720 116)">
         <rect x="0" y="0" width="418" height="288" rx="8" fill="#FFFFFF" stroke="#D8D8D8"/>
-        <g clip-path="url(#clip-20-22)">
+        <g>
+    <g clip-path="url(#clip-20-22)">
     <clipPath id="clip-20-22"><rect x="20" y="22" width="378" height="5" rx="2.5"/></clipPath>
     <rect x="20" y="22" width="55" height="5" fill="#CC2222"/><rect x="74" y="22" width="55" height="5" fill="#2A7A2A"/><rect x="128" y="22" width="55" height="5" fill="#D4A017"/><rect x="182" y="22" width="55" height="5" fill="#111111"/><rect x="236" y="22" width="55" height="5" fill="#CC2222"/><rect x="290" y="22" width="55" height="5" fill="#2A7A2A"/><rect x="344" y="22" width="55" height="5" fill="#DD9D13"/>
+  </g>
+    <clipPath id="anim-clip-20-22"><rect x="20" y="22" width="378" height="5" rx="2.5"/></clipPath>
+    <g clip-path="url(#anim-clip-20-22)">
+      <rect class="bar-sweep" x="-220" y="22" width="220" height="5" rx="2.5" fill="#FFFFFF" opacity="0.42"/>
+    </g>
   </g>
         <rect x="30" y="58" width="182" height="18" rx="4" fill="#F5F5F5"/>
         <rect x="30" y="92" width="354" height="1" fill="#E8E8E8"/>
@@ -64,10 +120,11 @@
         <text class="ui" x="92" y="181" font-size="13" fill="#666666">论文智能</text>
         <text class="ui" x="204" y="146" font-size="13" fill="#666666">Peer review agent · 同行评审</text>
         <text class="ui" x="204" y="203" font-size="13" fill="#666666">LaTeX context · 写作上下文</text>
-        <path d="M52 273 C 128 250, 190 290, 256 260 S 342 238, 392 266" fill="none" stroke="#2A7A2A" stroke-width="4" stroke-linecap="round"/>
-        <circle cx="52" cy="273" r="5" fill="#CC2222"/>
-        <circle cx="256" cy="260" r="5" fill="#D4A017"/>
-        <circle cx="392" cy="266" r="5" fill="#2A7A2A"/>
+        <path d="M52 273 C 128 250, 190 290, 256 260 S 342 238, 392 266" fill="none" stroke="#D8D8D8" stroke-width="3" stroke-linecap="round"/>
+        <path class="flow-line" d="M52 273 C 128 250, 190 290, 256 260 S 342 238, 392 266" fill="none" stroke="#2A7A2A" stroke-width="4" stroke-linecap="round"/>
+        <circle class="pulse-dot" cx="52" cy="273" r="5" fill="#CC2222"/>
+        <circle class="pulse-dot" cx="256" cy="260" r="5" fill="#D4A017"/>
+        <circle class="pulse-dot" cx="392" cy="266" r="5" fill="#2A7A2A"/>
       </g>
       <text class="mono" x="78" y="466" font-size="12" fill="#999999">Go · React · TypeScript · MySQL · Redis · Docker · Agent Bridge</text>
     
