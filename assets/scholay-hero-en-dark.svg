@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#00000080" flood-opacity="1"/>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#181818"/>
+    </linearGradient>
+    <style>
+      .logo { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+      .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1280" height="560" fill="#111111"/>
+  
+      <rect x="38" y="38" width="1204" height="484" rx="8" fill="url(#paper)" stroke="#2A2A2A" filter="url(#shadow)"/>
+      <g>
+    <clipPath id="clip-70-68-a"><rect x="70" y="68" width="1140" height="8" rx="4"/></clipPath>
+    <g clip-path="url(#clip-70-68-a)">
+      <rect x="70" y="68" width="163.85714285714286" height="8" fill="#CC2222"/><rect x="232.85714285714286" y="68" width="163.85714285714286" height="8" fill="#2A7A2A"/><rect x="395.7142857142857" y="68" width="163.85714285714286" height="8" fill="#D4A017"/><rect x="558.5714285714286" y="68" width="163.85714285714286" height="8" fill="#111111"/><rect x="721.4285714285714" y="68" width="163.85714285714286" height="8" fill="#CC2222"/><rect x="884.2857142857143" y="68" width="163.85714285714286" height="8" fill="#2A7A2A"/><rect x="1047.142857142857" y="68" width="163.85714285714286" height="8" fill="#DD9D13"/>
+      <rect x="-150" y="68" width="180" height="8" rx="4" fill="#FFFFFF" opacity="0.42">
+        <animate attributeName="x" values="-150;1234" dur="5.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+      <text class="mono" x="78" y="128" font-size="12" fill="#999999">OFFICIAL GITHUB PROFILE</text>
+      <g><text class="logo" x="78" y="226" font-size="86" fill="#CC2222">S</text><text class="logo" x="125.30000000000001" y="226" font-size="86" fill="#2A7A2A">c</text><text class="logo" x="165.72" y="226" font-size="86" fill="#D4A017">h</text><text class="logo" x="215.6" y="226" font-size="86" fill="#F5F5F5">o</text><text class="logo" x="264.62" y="226" font-size="86" fill="#CC2222">l</text><text class="logo" x="289.56" y="226" font-size="86" fill="#2A7A2A">a</text><text class="logo" x="334.28" y="226" font-size="86" fill="#D4A017">y</text></g>
+      <text class="ui" x="82" y="286" font-size="26" font-weight="700" fill="#F5F5F5">AI academic workspace</text>
+      <text class="ui" x="82" y="330" font-size="17" fill="#C8C8C8">Search, review, write, and organize research with agent workflows.</text>
+      <g transform="translate(82 376)">
+        <g>
+    <rect x="0" y="0" width="126" height="30" rx="15" fill="#151515" stroke="#2A2A2A"/>
+    <circle cx="16" cy="15" r="4" fill="#CC2222"/>
+    <text class="mono" x="29" y="20" font-size="11" fill="#C8C8C8">SEARCH</text>
+  </g><g>
+    <rect x="112" y="0" width="126" height="30" rx="15" fill="#151515" stroke="#2A2A2A"/>
+    <circle cx="128" cy="15" r="4" fill="#2A7A2A"/>
+    <text class="mono" x="141" y="20" font-size="11" fill="#C8C8C8">REVIEW</text>
+  </g><g>
+    <rect x="224" y="0" width="112" height="30" rx="15" fill="#151515" stroke="#2A2A2A"/>
+    <circle cx="240" cy="15" r="4" fill="#D4A017"/>
+    <text class="mono" x="253" y="20" font-size="11" fill="#C8C8C8">WRITE</text>
+  </g><g>
+    <rect x="336" y="0" width="140" height="30" rx="15" fill="#151515" stroke="#2A2A2A"/>
+    <circle cx="352" cy="15" r="4" fill="#1A56DB"/>
+    <text class="mono" x="365" y="20" font-size="11" fill="#C8C8C8">LIBRARY</text>
+  </g>
+      </g>
+      <g transform="translate(720 116)">
+        <rect x="0" y="0" width="418" height="288" rx="8" fill="#111111" stroke="#3D3D3D"/>
+        <g>
+    <clipPath id="clip-20-22-s"><rect x="20" y="22" width="378" height="5" rx="2.5"/></clipPath>
+    <g clip-path="url(#clip-20-22-s)">
+      <rect x="20" y="22" width="55" height="5" fill="#CC2222"/><rect x="74" y="22" width="55" height="5" fill="#2A7A2A"/><rect x="128" y="22" width="55" height="5" fill="#D4A017"/><rect x="182" y="22" width="55" height="5" fill="#111111"/><rect x="236" y="22" width="55" height="5" fill="#CC2222"/><rect x="290" y="22" width="55" height="5" fill="#2A7A2A"/><rect x="344" y="22" width="55" height="5" fill="#DD9D13"/>
+      
+    </g>
+  </g>
+        <text class="ui" x="32" y="74" font-size="20" font-weight="700" fill="#F5F5F5">Research pipeline</text>
+        <text class="ui" x="32" y="104" font-size="13" fill="#C8C8C8">From question to reusable context</text>
+        <path d="M54 168H358" stroke="#3D3D3D" stroke-width="4" stroke-linecap="round"/>
+        <g>
+            <circle cx="54" cy="168" r="12" fill="#CC2222"/>
+            <text class="ui" x="54" y="212" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">Search</text>
+          </g><g>
+            <circle cx="155.32999999999998" cy="168" r="12" fill="#2A7A2A"/>
+            <text class="ui" x="155.32999999999998" y="212" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">Review</text>
+          </g><g>
+            <circle cx="256.65999999999997" cy="168" r="12" fill="#D4A017"/>
+            <text class="ui" x="256.65999999999997" y="212" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">Write</text>
+          </g><g>
+            <circle cx="357.99" cy="168" r="12" fill="#1A56DB"/>
+            <text class="ui" x="357.99" y="212" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">Library</text>
+          </g>
+        <circle cx="54" cy="168" r="7" fill="#CC2222" stroke="#111111" stroke-width="4">
+          <animate attributeName="cx" values="54;155.33;256.66;358;54" dur="6.4s" repeatCount="indefinite"/>
+          <animate attributeName="fill" values="#CC2222;#2A7A2A;#D4A017;#1A56DB;#CC2222" dur="6.4s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M54 252 C 128 229, 190 269, 256 239 S 342 217, 392 245" fill="none" stroke="#2A7A2A" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+        <circle cx="54" cy="252" r="5" fill="#CC2222"/>
+        <circle cx="256" cy="239" r="5" fill="#D4A017"/>
+        <circle cx="392" cy="245" r="5" fill="#2A7A2A"/>
+      </g>
+      <text class="mono" x="78" y="466" font-size="12" fill="#999999">Go · React · TypeScript · MySQL · Redis · Docker · Agent Bridge</text>
+    
+</svg>

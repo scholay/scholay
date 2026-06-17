@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#11111120" flood-opacity="1"/>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <style>
+      .logo { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+      .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1280" height="390" fill="#FFFFFF"/>
+  
+      <rect x="38" y="34" width="1204" height="316" rx="8" fill="#FFFFFF" stroke="#E8E8E8"/>
+      <text class="logo" x="72" y="88" font-size="34" fill="#111111">研究流程</text>
+      <text class="ui" x="74" y="118" font-size="15" fill="#666666">面向高频学术工作的安静技术栈。</text>
+      <g transform="translate(72 156)">
+        <g>
+            <circle cx="28" cy="28" r="24" fill="#CC2222"/>
+            <text class="ui" x="66" y="34" font-size="16" font-weight="700" fill="#111111">检索</text>
+            <path d="M158 28H190" stroke="#D8D8D8" stroke-width="2"/>
+          </g><g>
+            <circle cx="246" cy="28" r="24" fill="#2A7A2A"/>
+            <text class="ui" x="284" y="34" font-size="16" font-weight="700" fill="#111111">理解</text>
+            <path d="M376 28H408" stroke="#D8D8D8" stroke-width="2"/>
+          </g><g>
+            <circle cx="464" cy="28" r="24" fill="#D4A017"/>
+            <text class="ui" x="502" y="34" font-size="16" font-weight="700" fill="#111111">审稿</text>
+            <path d="M594 28H626" stroke="#D8D8D8" stroke-width="2"/>
+          </g><g>
+            <circle cx="682" cy="28" r="24" fill="#1A56DB"/>
+            <text class="ui" x="720" y="34" font-size="16" font-weight="700" fill="#111111">写作</text>
+            <path d="M812 28H844" stroke="#D8D8D8" stroke-width="2"/>
+          </g><g>
+            <circle cx="900" cy="28" r="24" fill="#2A7A2A"/>
+            <text class="ui" x="938" y="34" font-size="16" font-weight="700" fill="#111111">管理</text>
+            
+          </g>
+      </g>
+      <g transform="translate(72 246)">
+        <g>
+            <rect x="0" y="0" width="260" height="64" rx="8" fill="#FAFAFA" stroke="#E8E8E8"/>
+            <rect x="0" y="0" width="5" height="64" rx="2.5" fill="#CC2222"/>
+            <text class="ui" x="20" y="24" font-size="14" font-weight="700" fill="#111111">前端</text>
+            <text class="ui" x="20" y="45" font-size="11" fill="#666666">React 19 · Vite · TypeScript · Tailwind</text>
+          </g><g>
+            <rect x="292" y="0" width="260" height="64" rx="8" fill="#FAFAFA" stroke="#E8E8E8"/>
+            <rect x="292" y="0" width="5" height="64" rx="2.5" fill="#2A7A2A"/>
+            <text class="ui" x="312" y="24" font-size="14" font-weight="700" fill="#111111">后端</text>
+            <text class="ui" x="312" y="45" font-size="11" fill="#666666">Go · Gin · GORM · MySQL · Redis · Nginx</text>
+          </g><g>
+            <rect x="584" y="0" width="260" height="64" rx="8" fill="#FAFAFA" stroke="#E8E8E8"/>
+            <rect x="584" y="0" width="5" height="64" rx="2.5" fill="#D4A017"/>
+            <text class="ui" x="604" y="24" font-size="14" font-weight="700" fill="#111111">智能体层</text>
+            <text class="ui" x="604" y="45" font-size="11" fill="#666666">Agent bridge · WS tickets · feature sessions</text>
+          </g><g>
+            <rect x="876" y="0" width="260" height="64" rx="8" fill="#FAFAFA" stroke="#E8E8E8"/>
+            <rect x="876" y="0" width="5" height="64" rx="2.5" fill="#1A56DB"/>
+            <text class="ui" x="896" y="24" font-size="14" font-weight="700" fill="#111111">学术数据</text>
+            <text class="ui" x="896" y="45" font-size="11" fill="#666666">Minicod · SEO index · library · staging area</text>
+          </g>
+      </g>
+    
+</svg>

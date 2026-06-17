@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#00000080" flood-opacity="1"/>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#181818"/>
+    </linearGradient>
+    <style>
+      .logo { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+      .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1280" height="430" fill="#111111"/>
+  
+      <rect x="38" y="36" width="1204" height="358" rx="8" fill="#181818" stroke="#2A2A2A"/>
+      <text class="logo" x="72" y="92" font-size="36" fill="#F5F5F5">Product system</text>
+      <text class="ui" x="74" y="124" font-size="15" fill="#C8C8C8">Five research surfaces, one Scholay workspace.</text>
+      <g>
+    <clipPath id="clip-74-148-s"><rect x="74" y="148" width="320" height="5" rx="2.5"/></clipPath>
+    <g clip-path="url(#clip-74-148-s)">
+      <rect x="74" y="148" width="46.714285714285715" height="5" fill="#CC2222"/><rect x="119.71428571428572" y="148" width="46.714285714285715" height="5" fill="#2A7A2A"/><rect x="165.42857142857144" y="148" width="46.714285714285715" height="5" fill="#D4A017"/><rect x="211.14285714285714" y="148" width="46.714285714285715" height="5" fill="#111111"/><rect x="256.8571428571429" y="148" width="46.714285714285715" height="5" fill="#CC2222"/><rect x="302.57142857142856" y="148" width="46.714285714285715" height="5" fill="#2A7A2A"/><rect x="348.2857142857143" y="148" width="46.714285714285715" height="5" fill="#DD9D13"/>
+      
+    </g>
+  </g>
+      <g>
+          <rect x="74" y="190" width="198" height="142" rx="8" fill="#111111" stroke="#2A2A2A"/>
+          <circle cx="106" cy="224" r="10" fill="#CC2222"/>
+          <text class="ui" x="128" y="225" font-size="14" font-weight="700" fill="#F5F5F5">
+    <tspan x="128" dy="0">Academic Search</tspan>
+  </text>
+          <text class="ui" x="96" y="278" font-size="11" font-weight="400" fill="#C8C8C8">
+    <tspan x="96" dy="0">Papers, authors,</tspan><tspan x="96" dy="16">journals, citation</tspan><tspan x="96" dy="16">context</tspan>
+  </text>
+        </g><g>
+          <rect x="304" y="190" width="198" height="142" rx="8" fill="#111111" stroke="#2A2A2A"/>
+          <circle cx="336" cy="224" r="10" fill="#2A7A2A"/>
+          <text class="ui" x="358" y="225" font-size="14" font-weight="700" fill="#F5F5F5">
+    <tspan x="358" dy="0">AI Review</tspan>
+  </text>
+          <text class="ui" x="326" y="278" font-size="11" font-weight="400" fill="#C8C8C8">
+    <tspan x="326" dy="0">Structured manuscript</tspan><tspan x="326" dy="16">and thesis feedback</tspan>
+  </text>
+        </g><g>
+          <rect x="534" y="190" width="198" height="142" rx="8" fill="#111111" stroke="#2A2A2A"/>
+          <circle cx="566" cy="224" r="10" fill="#D4A017"/>
+          <text class="ui" x="588" y="225" font-size="14" font-weight="700" fill="#F5F5F5">
+    <tspan x="588" dy="0">Prism Writing</tspan>
+  </text>
+          <text class="ui" x="556" y="278" font-size="11" font-weight="400" fill="#C8C8C8">
+    <tspan x="556" dy="0">LaTeX-native writing and</tspan><tspan x="556" dy="16">revision workspace</tspan>
+  </text>
+        </g><g>
+          <rect x="764" y="190" width="198" height="142" rx="8" fill="#111111" stroke="#2A2A2A"/>
+          <circle cx="796" cy="224" r="10" fill="#1A56DB"/>
+          <text class="ui" x="818" y="225" font-size="14" font-weight="700" fill="#F5F5F5">
+    <tspan x="818" dy="0">Research Library</tspan>
+  </text>
+          <text class="ui" x="786" y="278" font-size="11" font-weight="400" fill="#C8C8C8">
+    <tspan x="786" dy="0">Collections, staging</tspan><tspan x="786" dy="16">areas, notes, reusable</tspan><tspan x="786" dy="16">context</tspan>
+  </text>
+        </g><g>
+          <rect x="994" y="190" width="198" height="142" rx="8" fill="#111111" stroke="#2A2A2A"/>
+          <circle cx="1026" cy="224" r="10" fill="#2A7A2A"/>
+          <text class="ui" x="1048" y="225" font-size="14" font-weight="700" fill="#F5F5F5">
+    <tspan x="1048" dy="0">Agent Workspace</tspan>
+  </text>
+          <text class="ui" x="1016" y="278" font-size="11" font-weight="400" fill="#C8C8C8">
+    <tspan x="1016" dy="0">Feature-scoped sessions,</tspan><tspan x="1016" dy="16">WS bridge, usage hooks</tspan>
+  </text>
+        </g>
+    
+</svg>

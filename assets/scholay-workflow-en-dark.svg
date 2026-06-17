@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#00000080" flood-opacity="1"/>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#181818"/>
+    </linearGradient>
+    <style>
+      .logo { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+      .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1280" height="390" fill="#111111"/>
+  
+      <rect x="38" y="34" width="1204" height="316" rx="8" fill="#111111" stroke="#2A2A2A"/>
+      <text class="logo" x="72" y="88" font-size="34" fill="#F5F5F5">Research workflow</text>
+      <text class="ui" x="74" y="118" font-size="15" fill="#C8C8C8">A quiet, focused stack for repeated academic work.</text>
+      <g transform="translate(72 156)">
+        <g>
+            <circle cx="28" cy="28" r="24" fill="#CC2222"/>
+            <text class="ui" x="66" y="34" font-size="16" font-weight="700" fill="#F5F5F5">Search</text>
+            <path d="M158 28H190" stroke="#3D3D3D" stroke-width="2"/>
+          </g><g>
+            <circle cx="246" cy="28" r="24" fill="#2A7A2A"/>
+            <text class="ui" x="284" y="34" font-size="16" font-weight="700" fill="#F5F5F5">Understand</text>
+            <path d="M376 28H408" stroke="#3D3D3D" stroke-width="2"/>
+          </g><g>
+            <circle cx="464" cy="28" r="24" fill="#D4A017"/>
+            <text class="ui" x="502" y="34" font-size="16" font-weight="700" fill="#F5F5F5">Review</text>
+            <path d="M594 28H626" stroke="#3D3D3D" stroke-width="2"/>
+          </g><g>
+            <circle cx="682" cy="28" r="24" fill="#1A56DB"/>
+            <text class="ui" x="720" y="34" font-size="16" font-weight="700" fill="#F5F5F5">Write</text>
+            <path d="M812 28H844" stroke="#3D3D3D" stroke-width="2"/>
+          </g><g>
+            <circle cx="900" cy="28" r="24" fill="#2A7A2A"/>
+            <text class="ui" x="938" y="34" font-size="16" font-weight="700" fill="#F5F5F5">Organize</text>
+            
+          </g>
+      </g>
+      <g transform="translate(72 246)">
+        <g>
+            <rect x="0" y="0" width="260" height="64" rx="8" fill="#181818" stroke="#2A2A2A"/>
+            <rect x="0" y="0" width="5" height="64" rx="2.5" fill="#CC2222"/>
+            <text class="ui" x="20" y="24" font-size="14" font-weight="700" fill="#F5F5F5">Frontend</text>
+            <text class="ui" x="20" y="45" font-size="11" fill="#C8C8C8">React 19 · Vite · TypeScript · Tailwind</text>
+          </g><g>
+            <rect x="292" y="0" width="260" height="64" rx="8" fill="#181818" stroke="#2A2A2A"/>
+            <rect x="292" y="0" width="5" height="64" rx="2.5" fill="#2A7A2A"/>
+            <text class="ui" x="312" y="24" font-size="14" font-weight="700" fill="#F5F5F5">Backend</text>
+            <text class="ui" x="312" y="45" font-size="11" fill="#C8C8C8">Go · Gin · GORM · MySQL · Redis · Nginx</text>
+          </g><g>
+            <rect x="584" y="0" width="260" height="64" rx="8" fill="#181818" stroke="#2A2A2A"/>
+            <rect x="584" y="0" width="5" height="64" rx="2.5" fill="#D4A017"/>
+            <text class="ui" x="604" y="24" font-size="14" font-weight="700" fill="#F5F5F5">Agent Layer</text>
+            <text class="ui" x="604" y="45" font-size="11" fill="#C8C8C8">Agent bridge · WS tickets · feature sessions</text>
+          </g><g>
+            <rect x="876" y="0" width="260" height="64" rx="8" fill="#181818" stroke="#2A2A2A"/>
+            <rect x="876" y="0" width="5" height="64" rx="2.5" fill="#1A56DB"/>
+            <text class="ui" x="896" y="24" font-size="14" font-weight="700" fill="#F5F5F5">Academic Data</text>
+            <text class="ui" x="896" y="45" font-size="11" fill="#C8C8C8">Minicod · SEO index · library · staging area</text>
+          </g>
+      </g>
+    
+</svg>
