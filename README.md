@@ -21,8 +21,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-capabilities-dark.png">
-    <img src="./assets/scholay-capabilities-light.png" alt="Scholay product system / Scholay 产品系统" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-capabilities-multilingual-dark.png">
+    <img src="./assets/scholay-capabilities-multilingual-light.png" alt="Scholay product system / Scholay 产品系统" width="100%">
   </picture>
 </div>
 
@@ -30,8 +30,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-workflow-dark.png">
-    <img src="./assets/scholay-workflow-light.png" alt="Scholay research workflow / Scholay 研究流程" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-workflow-multilingual-dark.png">
+    <img src="./assets/scholay-workflow-multilingual-light.png" alt="Scholay research workflow / Scholay 研究流程" width="100%">
   </picture>
 </div>
 
