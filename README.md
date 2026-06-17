@@ -41,6 +41,18 @@
 
 Scholay is building an AI-native academic workspace for researchers, students, editors, and knowledge teams. It brings scholarly search, paper understanding, peer-review assistance, LaTeX writing, and research library workflows into one focused product surface.
 
+## Open Source Preview
+
+Scholay is preparing to open source more of our work. Stay tuned.
+
+If Scholay is valuable to your research workflow, please give us a star.
+
+<p align="center">
+  <a href="https://www.scholay.com"><strong>www.scholay.com</strong></a>
+  ·
+  <a href="https://github.com/scholay/scholay/stargazers">Star Scholay on GitHub</a>
+</p>
+
 ## Product Surfaces
 
 - **Academic Search**: fast discovery over papers, authors, journals, and research context.
@@ -91,6 +103,18 @@ Go · Gin · MySQL · Redis · React · TypeScript · Vite · Tailwind · Docker
 ## Scholay
 
 Scholay 正在构建面向研究者、学生、编辑和知识团队的 AI 原生学术工作台。它把学术检索、论文理解、同行评审辅助、LaTeX 写作和个人文献库流程整合到一个专注的产品界面里。
+
+## 开源预告
+
+Scholay 正在准备逐步开源，敬请期待。
+
+如果我们的产品对你有价值，欢迎给我们一个 Star。
+
+<p align="center">
+  <a href="https://www.scholay.com"><strong>www.scholay.com</strong></a>
+  ·
+  <a href="https://github.com/scholay/scholay/stargazers">给 Scholay 一个 Star</a>
+</p>
 
 ## 产品矩阵
 
