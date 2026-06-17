@@ -180,10 +180,6 @@ function animatedHero(theme) {
         58% { opacity: .12; }
         100% { transform: translateX(1380px); opacity: 0; }
       }
-      @keyframes float-card {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-8px); }
-      }
       @keyframes pulse-dot {
         0%, 100% { r: 5; opacity: .86; }
         50% { r: 8; opacity: 1; }
@@ -205,14 +201,13 @@ function animatedHero(theme) {
       .letter-5 { animation-delay: .7s; }
       .letter-6 { animation-delay: .84s; }
       .bar-sweep { animation: sweep 4.8s ease-in-out infinite; }
-      .float-card { animation: float-card 6s ease-in-out infinite; }
       .flow-line { stroke-dasharray: 84 436; animation: dash-flow 5.2s linear infinite; }
       .pulse-dot { animation: pulse-dot 2.6s ease-in-out infinite; }
       .pulse-dot:nth-of-type(2) { animation-delay: .8s; }
       .pulse-dot:nth-of-type(3) { animation-delay: 1.6s; }
       .chip-live { animation: chip-glow 3.8s ease-in-out infinite; }
       @media (prefers-reduced-motion: reduce) {
-        .letter, .bar-sweep, .float-card, .flow-line, .pulse-dot, .chip-live { animation: none; }
+        .letter, .bar-sweep, .flow-line, .pulse-dot, .chip-live { animation: none; }
       }
     `,
     body: (t) => `
@@ -230,7 +225,7 @@ function animatedHero(theme) {
         <g class="chip-live" style="animation-delay:1.8s">${chip(322, 0, 'LIBRARY', C.blue, t)}</g>
       </g>
       <g transform="translate(720 116)">
-      <g class="float-card">
+      <g>
         <rect x="0" y="0" width="418" height="288" rx="8" fill="${t.bg}" stroke="${t.borderStrong}"/>
         ${animatedBrandBar(20, 22, 378, 5)}
         <rect x="30" y="58" width="182" height="18" rx="4" fill="${t.muted}"/>
