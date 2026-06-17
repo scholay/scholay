@@ -97,7 +97,8 @@
     <text class="mono" x="349" y="18" font-size="11" fill="#666666">LIBRARY</text>
   </g></g>
       </g>
-      <g class="float-card" transform="translate(720 116)">
+      <g transform="translate(720 116)">
+      <g class="float-card">
         <rect x="0" y="0" width="418" height="288" rx="8" fill="#FFFFFF" stroke="#D8D8D8"/>
         <g>
     <g clip-path="url(#clip-20-22)">
@@ -125,6 +126,7 @@
         <circle class="pulse-dot" cx="52" cy="273" r="5" fill="#CC2222"/>
         <circle class="pulse-dot" cx="256" cy="260" r="5" fill="#D4A017"/>
         <circle class="pulse-dot" cx="392" cy="266" r="5" fill="#2A7A2A"/>
+      </g>
       </g>
       <text class="mono" x="78" y="466" font-size="12" fill="#999999">Go · React · TypeScript · MySQL · Redis · Docker · Agent Bridge</text>
     

@@ -229,7 +229,8 @@ function animatedHero(theme) {
         <g class="chip-live" style="animation-delay:1.2s">${chip(220, 0, 'PRISM', C.amber, t)}</g>
         <g class="chip-live" style="animation-delay:1.8s">${chip(322, 0, 'LIBRARY', C.blue, t)}</g>
       </g>
-      <g class="float-card" transform="translate(720 116)">
+      <g transform="translate(720 116)">
+      <g class="float-card">
         <rect x="0" y="0" width="418" height="288" rx="8" fill="${t.bg}" stroke="${t.borderStrong}"/>
         ${animatedBrandBar(20, 22, 378, 5)}
         <rect x="30" y="58" width="182" height="18" rx="4" fill="${t.muted}"/>
@@ -248,6 +249,7 @@ function animatedHero(theme) {
         <circle class="pulse-dot" cx="52" cy="273" r="5" fill="${C.red}"/>
         <circle class="pulse-dot" cx="256" cy="260" r="5" fill="${C.amber}"/>
         <circle class="pulse-dot" cx="392" cy="266" r="5" fill="${C.green}"/>
+      </g>
       </g>
       <text class="mono" x="78" y="466" font-size="12" fill="${t.subtle}">Go · React · TypeScript · MySQL · Redis · Docker · Agent Bridge</text>
     `,
