@@ -341,6 +341,8 @@ function workflow(theme) {
 }
 
 const svgs = {
+  'scholay-hero-animated-stable-light.svg': animatedHero('light'),
+  'scholay-hero-animated-stable-dark.svg': animatedHero('dark'),
   'scholay-hero-animated-light.svg': animatedHero('light'),
   'scholay-hero-animated-dark.svg': animatedHero('dark'),
   'scholay-hero-light.svg': hero('light'),

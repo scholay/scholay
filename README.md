@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-hero-animated-dark.svg">
-    <img src="./assets/scholay-hero-animated-light.svg" alt="Scholay - AI academic workspace / AI 学术工作台" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/scholay-hero-animated-stable-dark.svg">
+    <img src="./assets/scholay-hero-animated-stable-light.svg" alt="Scholay - AI academic workspace / AI 学术工作台" width="100%">
   </picture>
 </div>
 
