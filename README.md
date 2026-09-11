@@ -1,5 +1,5 @@
 <a href="https://www.scholay.com">
-  <img src="assets/scholay-rhino-academic.gif" width="100%" alt="Scholay — a pixel-art garden of ideas. Our rhino explores a courtyard of books, papers and research notes, then sits down to rest." />
+  <img src="assets/scholay-rhino-academic-wide.gif" width="100%" alt="Scholay — a pixel-art garden of ideas. Our rhino explores a courtyard of books, papers and research notes, then sits down to rest." />
 </a>
 
 <p align="center">
